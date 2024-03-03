@@ -389,6 +389,8 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        display: inline-block;
+        margin-bottom: 16px;
         
 }
 
@@ -400,6 +402,7 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #f4f4fd;
+        margin-bottom: 16px;
 }
 .offer {
     font-family: "Roboto", sans-serif;
@@ -408,6 +411,6 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
-        padding-top: 16px;
+        
 }
 /* ========== /Hero Footer styles ========== */
