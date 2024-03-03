@@ -56,14 +56,14 @@ body {
 .div-header {
     display: flex;
     justify-content: space-between;
-    padding: 24px 0;
+    
     
 }
 
 .page-nav {
     display: flex;
     align-items: center;
-    
+    padding: 24px 0;
     }
 
 .menu {
@@ -97,6 +97,7 @@ body {
 
 .address-contacts {
     font-style: normal;
+    padding: 24px 0;
 }
 .menu-link {
     font-family: "Roboto", sans-serif;
