@@ -60,16 +60,17 @@ body {
 
 .page-nav {
     display: flex;
+    align-items: center;
     }
 
 .menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .menu-address {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .page-header {
