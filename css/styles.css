@@ -56,10 +56,7 @@ body {
 .div-header {
     display: flex;
     justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-right: 15px;
-    padding-left: 15px;    
+    
 }
 
 .page-nav {
@@ -79,7 +76,8 @@ body {
 }
 
 .page-header {
-    
+    padding-top: 24px;
+    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc
 }
 .logo {
