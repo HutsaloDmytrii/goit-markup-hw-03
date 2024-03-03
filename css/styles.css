@@ -32,8 +32,8 @@ body {
 
 .container {
     width: 1158px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -193,7 +193,7 @@ body {
 }
 
 .benefits-item {
-    width: calc((100%-72px)/4;
+    width: calc((100% - 72px))/4;
 }
 .our-benefits {
     font-family: "Roboto", sans-serif;
@@ -212,6 +212,7 @@ body {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-bottom: 8px;
 }
 
 .description-benefits {
@@ -241,7 +242,7 @@ body {
 
 .list-team {
     display: flex;
-    flex-wrap: wrap;
+    
     gap: 24px;
     }
 
@@ -249,7 +250,7 @@ body {
 
 .team-item {
     background: #ffffff;
-    width: calc((100%-72px)/4;
+    width: calc((100% - 72px))/4;
         }
 
 
@@ -274,6 +275,8 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        padding-top: 32px;
+            padding-bottom: 8px;
 }
 
 .position-name {
@@ -284,10 +287,21 @@ body {
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
+        padding-bottom: 32px;
 }
 /* ========== /Hero Section2 styles ========== */
 
 /* ========== Hero Section3 styles ========== */
+.our-portfolio-list {
+    display: flex;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 48px;
+}
+
+.our-portfolio-item {
+    width: calc((100% - 48px))/3;
+}
 .section-3 {
     font-family: "Roboto", sans-serif;
         font-weight: 700;
@@ -297,6 +311,8 @@ body {
         text-transform: capitalize;
         text-align: center;
         color: #2e2f42;
+        padding-top: 60px;
+        padding-bottom: 60px;
 }
 .our-portfolio {
     font-family: "Roboto", sans-serif;
@@ -321,6 +337,9 @@ body {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding-top: 32px;
+        padding-bottom: 8px;
+        text-align: left;
 }
 
 .department {
@@ -330,12 +349,23 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        padding-bottom: 32px;
+        text-align: left;
 }
 /* ========== /Hero Section3 styles ========== */
 
 /* ========== Hero Footer styles ========== */
+.footer-container {
+    padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 15px;
+        padding-right: 879px;
+}
+
 .hero-footer {
     background: #2e2f42;
+    padding-top: 60px;
+        
 }
 
 .logo-footer {
@@ -346,6 +376,7 @@ body {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        
 }
 
 .part-logo-footer-name {
@@ -364,5 +395,6 @@ body {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        padding-top: 16px;
 }
 /* ========== /Hero Footer styles ========== */
